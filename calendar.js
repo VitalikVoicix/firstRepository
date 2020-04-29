@@ -3,7 +3,7 @@ let userMonth = document.getElementById("block1")
 let userYear = document.getElementById("block3")
 let bornDate = document.getElementById("tell")
 
-bornDate.addEventListener('click',function (res){
+  bornDate.addEventListener('click',function (res){
     let massage=document.getElementById('massage');
     let parseDay=parseInt(userDay.value);
     let parseMonth=parseInt((userMonth.value)-1);
