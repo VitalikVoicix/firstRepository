@@ -1,0 +1,30 @@
+body{
+    background-color: royalblue;
+}
+#header{
+    font-size:35px; ;
+    margin-top: 230px;
+    margin-left: 580px;
+}
+input{
+  height: 50px;
+  width: 250px;
+  margin-top: 50px; 
+  margin-left: 600px;
+  padding-left: 70px;
+  display:block;
+}
+#answer{
+ width: 100px;
+ background-color: aqua;
+ margin-top: 50px; 
+ margin-left: 630px;
+
+}
+#button{
+    background-color: blue;
+    border-style: none;
+    border-radius: 20px;
+    margin-left :630px;
+    margin-top: 70px;
+}
