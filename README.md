@@ -63,10 +63,15 @@ Filters countries containing 'us', with populations less than 50 million, list t
 ## How to run the application locally?
 
 **Running the API**:
+
     + Right-click on the project in the Package Explorer.
+    
     + Select Run As > Mule Application.
+    
     + Studio will build and deploy the project to the embedded Mule runtime.
+    
     + Look for the console message like: Started app "gpt-1use-case-app" - this indicates your API is up and running.
+    
  **Testing the API**:
     + Once the API is running, you can test it by accessing the endpoints. If you're unsure of the URL, it's typically printed in the console during the startup. For example: 
     http://localhost:8081/api/restcountries.
