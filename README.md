@@ -20,6 +20,4 @@ This will retrieve countries with names containing 'est', like Estonia.
 
 _Example_: `GET /restcountries?population=10`
 
-Retrieves countries with a population of fewer than 10 million people.
-
-Remember, if the population parameter equals 0, no filtering occurs.
+Retrieves countries with a population of fewer than 10 million people.Remember, if the population parameter equals 0, no filtering occurs.
