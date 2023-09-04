@@ -16,8 +16,19 @@ _Example_: `GET /restcountries?name=est`
 
 This will retrieve countries with names containing 'est', like Estonia.
 
-+ **Use the population query parameter. The filter searches for countries where the population is less than the provided number, in millions..**
++ **Use the population query parameter. The filter searches for countries where the population is less than the provided number, in millions.**
 
 _Example_: `GET /restcountries?population=10`
 
-Retrieves countries with a population of fewer than 10 million people.Remember, if the population parameter equals 0, no filtering occurs.
+Retrieves countries with a population of fewer than 10 million people. Remember, if the population parameter equals 0, no filtering occurs.
+
++ **Use the order query parameter. You can sort countries in ascending or descending order based on their names.**
+
+_Example_: `GET /restcountries?order=ascend`
+
+Lists countries in ascending order of their names.
+
+_Example_: `GET /restcountries?order=ascend`
+
+Lists countries in descending order of their names.
+
