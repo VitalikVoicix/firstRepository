@@ -24,11 +24,11 @@ Retrieves countries with a population of fewer than 10 million people. Remember,
 
 + **Use the order query parameter. You can sort countries in ascending or descending order based on their names.**
 
-_Example_: `GET /restcountries?order=ascend`
+- _Example_: `GET /restcountries?order=ascend`
 
 Lists countries in ascending order of their names.
 
-_Example_: `GET /restcountries?order=ascend`
+- _Example_: `GET /restcountries?order=ascend`
 
 Lists countries in descending order of their names.
 
@@ -43,5 +43,17 @@ Returns only the first five countries.
 + **Name and Population Filters Combined**
 
 _Example_: `GET /restcountries?name=est&population=2`
+
+Fetches countries with names containing 'est' and with a population less than 2 million.
+
++ **Sorting and Pagination Combined**
+
+_Example_: `GET /restcountries?order=descend&totalNumber=3`
+
+Returns the first three countries when sorted in descending order.
+
++ **Sorting and Pagination Combined**
+
+_Example_: `GET /restcountries?order=descend&totalNumber=3`
 
 Returns the first three countries when sorted in descending order.
