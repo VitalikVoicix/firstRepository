@@ -90,5 +90,6 @@ Filters countries containing 'us', with populations less than 50 million, list t
 
 ### _Useful links_:
 + [Exchange](https://anypoint.mulesoft.com/exchange/4af9c84b-ab45-49f9-9cc2-9764f985bec1/gpt-1use-case-api/minor/1.0/)
-+ Public Portal
-+ Implementation Url
++ [Public Portal](https://anypoint.mulesoft.com/exchange/portals/softserve-inc-62/4af9c84b-ab45-49f9-9cc2-9764f985bec1/gpt-1use-case-api/)
++ [Implementation Url](http://gpt-1use-case-app.us-e2.cloudhub.io/api/restcountries)
+   + API is secured by Basic Authentication
