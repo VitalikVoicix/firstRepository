@@ -9,6 +9,7 @@ The API is driven by query parameters, allowing users to tailor the output based
 
 _Example_ : `GET /restcountries`
 
+
 2)**Use the name query parameter to filter countries containing the provided name substring.**
 
 _Example_: `GET /restcountries?name=est`
