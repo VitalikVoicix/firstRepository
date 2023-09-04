@@ -89,6 +89,6 @@ Filters countries containing 'us', with populations less than 50 million, list t
      If there are issues related to project dependencies or configurations, they will typically be displayed in the console. Reading these error logs can give insights into what needs fixing.
 
 ### _Useful links_:
-+ Exchange
++ [Exchange](https://anypoint.mulesoft.com/exchange/4af9c84b-ab45-49f9-9cc2-9764f985bec1/gpt-1use-case-api/minor/1.0/)
 + Public Portal
 + Implementation Url
