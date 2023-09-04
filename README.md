@@ -38,3 +38,10 @@ _Example_: `GET /restcountries?totalNumber=5`
 
 Returns only the first five countries.
 
+###You can also combine these functions
+
++ **Name and Population Filters Combined**
+
+_Example_: `GET /restcountries?name=est&population=2`
+
+Returns the first three countries when sorted in descending order.
