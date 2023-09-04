@@ -74,7 +74,7 @@ Filters countries containing 'us', with populations less than 50 million, list t
     
  **Testing the API**:
  
-    + Once the API is running, you can test it by accessing the endpoints. If you're unsure of the URL, it's typically printed in the console during the startup. For example: 
+     Once the API is running, you can test it by accessing the endpoints. If you're unsure of the URL, it's typically printed in the console during the startup. For example: 
     http://localhost:8081/api/restcountries.
     
      Use tools like Postman or simply your browser to send GET requests to the provided URLs.
@@ -82,7 +82,9 @@ Filters countries containing 'us', with populations less than 50 million, list t
  **Stopping the API**:
  
      When you want to stop the API, go to the Console tab at the bottom, select the running process, and click on the red square button (Stop) on the top right of the console.
+     
  **Troubleshooting**:
-    + If you run into port conflicts (e.g., "Address already in use"), it's likely that the default port (like 8081) is already in use. You'll need to update the configuration in your project to use another port.
-    + If there are issues related to project dependencies or configurations, they will typically be displayed in the console. Reading these error logs can give insights into what needs fixing.
+ 
+     If you run into port conflicts (e.g., "Address already in use"), it's likely that the default port (like 8081) is already in use. You'll need to update the configuration in your project to use another port.
+     If there are issues related to project dependencies or configurations, they will typically be displayed in the console. Reading these error logs can give insights into what needs fixing.
     Now, with the gpt-1use-case-app API running locally, you can freely test, modify, and experiment with the application in a controlled environment.
