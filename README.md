@@ -7,6 +7,4 @@ The API is driven by query parameters, allowing users to tailor the output based
 ## How it works:
 1)**No Query Parameters: Simply fetches the entire list of countries without any filter or sorting logic.**
 
-_Example_
-
-`GET /restcountries`
+_Example_ : `GET /restcountries`
