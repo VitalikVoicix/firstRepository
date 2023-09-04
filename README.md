@@ -32,3 +32,9 @@ _Example_: `GET /restcountries?order=ascend`
 
 Lists countries in descending order of their names.
 
++ **Use the totalNumber query parameter to limit the number of countries returned.**
+
+_Example_: `GET /restcountries?totalNumber=5`
+
+Returns only the first five countries.
+
