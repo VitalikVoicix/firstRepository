@@ -8,3 +8,7 @@ The API is driven by query parameters, allowing users to tailor the output based
 1)**No Query Parameters: Simply fetches the entire list of countries without any filter or sorting logic.**
 
 _Example_ : `GET /restcountries`
+2)**Use the name query parameter to filter countries containing the provided name substring.**
+
+_Example_: `GET /restcountries?name=est`
+This will retrieve countries with names containing 'est', like Estonia.
