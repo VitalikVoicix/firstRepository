@@ -11,4 +11,5 @@ _Example_ : `GET /restcountries`
 2)**Use the name query parameter to filter countries containing the provided name substring.**
 
 _Example_: `GET /restcountries?name=est`
+
 This will retrieve countries with names containing 'est', like Estonia.
