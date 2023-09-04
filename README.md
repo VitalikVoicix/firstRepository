@@ -87,4 +87,8 @@ Filters countries containing 'us', with populations less than 50 million, list t
  
      If you run into port conflicts (e.g., "Address already in use"), it's likely that the default port (like 8081) is already in use. You'll need to update the configuration in your project to use another port.
      If there are issues related to project dependencies or configurations, they will typically be displayed in the console. Reading these error logs can give insights into what needs fixing.
-    Now, with the gpt-1use-case-app API running locally, you can freely test, modify, and experiment with the application in a controlled environment.
+
+### _Useful links_:
++ Exchange
++ Public Portal
++ Implementation Url
