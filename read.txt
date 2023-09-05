@@ -58,6 +58,11 @@ _Example_: `GET /restcountries?name=us&population=50&order=ascend&totalNumber=2`
 
 Filters countries containing 'us', with populations less than 50 million, list them in ascending order, and then only display the first two of the resultant list.
 
+## Recently the new endpoint was added!
+_Example_: `GET /restcountries/Africa` 
+
+ Fetch details about countries by selected Region, in this case, fetch all countries located in Africa
+
 ### _Experiment and combine as needed! Our API is designed to give you the utmost flexibility in retrieving the country data you need._
 
 ## How to run the application locally?
